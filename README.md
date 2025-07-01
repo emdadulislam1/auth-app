@@ -33,7 +33,7 @@ Choose your preferred deployment method:
 
 **One-command setup:**
 ```bash
-git clone https://github.com/your-username/auth-app.git
+git clone https://github.com/emdadulislam1/auth-app.git
 cd auth-app
 ./docker-setup.sh
 ```
@@ -72,7 +72,7 @@ The setup script will:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/auth-app.git
+   git clone https://github.com/emdadulislam1/auth-app.git
    cd auth-app
    ```
 

@@ -42,12 +42,12 @@ Before contributing, ensure you have:
 1. **Fork the repository** on GitHub
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/auth-app.git
+   git clone https://github.com/emdadulislam1/auth-app.git
    cd auth-app
    ```
 3. **Add upstream remote**:
    ```bash
-   git remote add upstream https://github.com/ORIGINAL_OWNER/auth-app.git
+   git remote add upstream https://github.com/emdadulislam1/auth-app.git
    ```
 
 ## 🛠️ Development Setup
@@ -113,7 +113,7 @@ We welcome various types of contributions:
 
 ### Finding Issues to Work On
 
-- Check the [Issues](https://github.com/OWNER/auth-app/issues) page
+- Check the [Issues](https://github.com/emdadulislam1/auth-app/issues) page
 - Look for issues labeled `good first issue` for beginners
 - Issues labeled `help wanted` are great for contributors
 - Check the project roadmap for upcoming features

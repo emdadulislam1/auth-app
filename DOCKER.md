@@ -39,7 +39,7 @@ The fastest way to get started is using our setup script:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/auth-app.git
+git clone https://github.com/emdadulislam1/auth-app.git
 cd auth-app
 
 # Run the automated setup
@@ -60,7 +60,7 @@ If you prefer manual control:
 
 ```bash
 # Clone and navigate
-git clone https://github.com/your-username/auth-app.git
+git clone https://github.com/emdadulislam1/auth-app.git
 cd auth-app
 
 # Copy environment template
@@ -519,62 +519,4 @@ services:
 ```
 
 Use with:
-```bash
-# Development
-docker compose -f docker-compose.yml -f docker-compose.dev.yml up
-
-# Production
-docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d
 ```
-
-### Scaling Services
-
-```bash
-# Scale backend instances
-docker compose up --scale backend=3 -d
-
-# Use load balancer (add to docker-compose.yml)
-nginx:
-  image: nginx:alpine
-  volumes:
-    - ./nginx-lb.conf:/etc/nginx/nginx.conf:ro
-  ports:
-    - "80:80"
-  depends_on:
-    - backend
-```
-
-## 📞 Support
-
-### Getting Help
-
-1. **Check logs first**: `docker compose logs`
-2. **Verify health**: `curl http://localhost:3001/api/health`
-3. **Check GitHub issues**: Search for similar problems
-4. **Create an issue**: Provide logs and configuration
-
-### Useful Commands
-
-```bash
-# Quick status check
-docker compose ps && curl -s http://localhost:3001/api/health
-
-# Complete restart
-docker compose down && docker compose up -d
-
-# Clean restart (removes data)
-docker compose down -v && docker compose up --build -d
-
-# Export logs
-docker compose logs > auth-app-logs.txt
-
-# Service shell access
-docker compose exec backend sh
-docker compose exec frontend sh
-```
-
----
-
-For more information, see the main [README.md](README.md) or check the individual service documentation:
-- [Backend Documentation](backend/README.md)
-- [Frontend Documentation](frontend/README.md)
