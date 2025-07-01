@@ -1,5 +1,8 @@
 # 🔐 Auth App - Modern Authentication System
 
+![image](https://github.com/user-attachments/assets/37e7afd7-ae82-457b-9c7f-cb36ab7a0f61)
+
+
 A full-stack authentication application built with modern technologies, featuring secure user registration, login, and Two-Factor Authentication (2FA) using TOTP.
 
 ## ✨ Features
